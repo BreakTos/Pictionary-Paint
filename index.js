@@ -43,3 +43,9 @@ var canvas = document.querySelector(".canvas");
     canvas.addEventListener('mouseleave', function() {
         isDrawing = false;
     });
+
+    document.getElementById('clearCanvas').addEventListener('click', function() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+    });
+
+    
