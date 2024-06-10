@@ -32,6 +32,22 @@ body {
     transform: scale(0.95);
 }
 
+#clearCanvas{
+    margin-bottom: 5vh;
+}
+
+#toggleBrush{
+    margin-bottom: 5vh;
+}
+#yellow{
+    background-color: lightgreen;
+    ;
+    margin-bottom: 5vh;
+}
+#blue{
+    background-color: skyblue;
+    margin-bottom: 5vh;
+}
 .P1{
     width: 50vw;
     height: 60vh;
@@ -74,4 +90,10 @@ body {
 .tools{
     display: flex; flex-direction: row;
     height: 400px; width: 500px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 20%;
+    height: 6vh;
 }

@@ -4,6 +4,27 @@ if (b)
         window.location.href = 'index2.html';
     });
 
+    
+const y = document.querySelector('#yellow')
+if(y)
+y.addEventListener('click',()=>{
+    context.strokeStyle = "green";
+});
+
+const r = document.querySelector('#blue')
+if(r)
+r.addEventListener('click',()=>{
+    context.strokeStyle = "blue";
+});
+
+const bl = document.querySelector('#black')
+if(bl)
+r.addEventListener('click',()=>{
+    context.strokeStyle = "blue";
+});
+
+
+
 var canvas = document.querySelector(".canvas");
 var context = canvas.getContext('2d');
 
@@ -75,3 +96,5 @@ canvas.addEventListener('touchcancel', function (e) {
 document.getElementById('clearCanvas').addEventListener('click', function () {
     context.clearRect(0, 0, canvas.width, canvas.height);
 });
+
+
