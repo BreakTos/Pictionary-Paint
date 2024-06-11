@@ -1,7 +1,7 @@
 const b = document.querySelector(".joinButton");
 if (b)
     b.addEventListener("click", () => {
-        window.location.href = 'index2.html';
+        window.location.href = 'canvas.html';
     });
 
     
